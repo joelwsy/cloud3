@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PHPUnit">
+    <option name="directories">
+      <list>
+        <option value="$PROJECT_DIR$/stripe-php-14.7.0-beta.1/tests" />
+      </list>
+    </option>
+  </component>
+</project>
