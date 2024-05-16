@@ -44,8 +44,8 @@ if(isset($_SESSION['cart'])) {
 // Create the checkout session
 $checkout_session = \Stripe\Checkout\Session::create([
     'mode' => 'payment',
-    'success_url' => 'http://localhost/cloud_assignment/orders-update.php',
-    'cancel_url' => 'http://localhost/cloud_assignment/index.php',
+    'success_url' => 'http://tarumt-alb-35825639.us-east-1.elb.amazonaws.com/orders-update.php',
+    'cancel_url' => 'http://tarumt-alb-35825639.us-east-1.elb.amazonaws.com/index.php',
     'locale' => 'auto',
     'line_items' => $line_items
 ]);
